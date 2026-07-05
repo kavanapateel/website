@@ -1,4 +1,4 @@
-/* Reusable Utility Classes */
+/* Reusable Custom Utility Classes */
 
 @layer utilities {
   /* Glassmorphism Effect */
@@ -14,39 +14,5 @@
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border: 1px solid rgba(255, 255, 255, 0.05);
-  }
-
-  /* Gradient Text */
-  .text-gradient {
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: transparent; /* Fallback */
-  }
-
-  .text-gradient-primary {
-    @apply text-gradient bg-gradient-to-r from-[var(--primary)] to-[var(--secondary)];
-  }
-
-  .text-gradient-secondary {
-    @apply text-gradient bg-gradient-to-r from-purple-500 to-pink-500;
-  }
-
-  /* Layout and Spacing */
-  .section-padding {
-    @apply py-16 md:py-24 lg:py-32;
-  }
-
-  .section-container {
-    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
-  }
-
-  /* Layout Utilities */
-  .flex-center {
-    @apply flex justify-center items-center;
-  }
-
-  .flex-between {
-    @apply flex justify-between items-center;
   }
 }

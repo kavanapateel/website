@@ -1,9 +1,9 @@
 export const companyInfo = {
-  name: 'Company Name Placeholder',
-  tagline: 'Empowering the future with innovative solutions',
-  description: 'A brief, engaging description of the company, its mission, and what it does.',
+  name: 'PentaByte Labs',
+  tagline: 'Engineering Digital Excellence',
+  description: 'A premium technology consulting firm specializing in AI, Cloud computing, custom software development, and digital transformation.',
   foundedYear: 2024,
-  logoUrl: '/placeholder-logo.svg',
+  logoUrl: '/logo.svg',
   socialMedia: [
     { id: 'twitter', platform: 'Twitter', url: '#', icon: 'twitter-icon' },
     { id: 'linkedin', platform: 'LinkedIn', url: '#', icon: 'linkedin-icon' },
