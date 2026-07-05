@@ -1,50 +1,50 @@
 export const processData = {
   header: {
-    badge: 'Our Methodology',
-    title: 'How We Build Excellence',
-    description: 'A battle-tested software development lifecycle designed to minimize risk, maximize transparency, and deliver unparalleled results.'
+    badge: 'Our Process',
+    title: 'How We Build Systems',
+    description: 'Our development lifecycle focuses on progressive security reviews, containerized staging environments, and comprehensive codebase handoffs.'
   },
   steps: [
     {
       id: 'step-1',
       number: '01',
-      title: 'Discovery & Planning',
-      description: 'We dive deep into your business goals, target audience, and technical requirements to forge a strategic roadmap.',
+      title: 'Discovery & Scope',
+      description: 'We define technical specifications, data schemas, and integration endpoints based on your systems constraint.',
       icon: 'search'
     },
     {
       id: 'step-2',
       number: '02',
-      title: 'UI/UX Architecture',
-      description: 'Our design team crafts intuitive, accessible, and high-fidelity prototypes that bring your technical vision to life.',
+      title: 'System Architecture',
+      description: 'We map out user workflows, frontend component hierarchies, and API endpoints before writing code.',
       icon: 'layout'
     },
     {
       id: 'step-3',
       number: '03',
-      title: 'Agile Development',
-      description: 'We build in iterative sprints, ensuring rapid delivery of functional software while maintaining strict coding standards.',
+      title: 'Agile Engineering',
+      description: 'We develop features in weekly sprints, pushing tested commits to a staging environment for regular review.',
       icon: 'code'
     },
     {
       id: 'step-4',
       number: '04',
-      title: 'Quality Assurance',
-      description: 'Rigorous automated and manual testing guarantees performance, security, and a flawless user experience.',
+      title: 'Testing & Verification',
+      description: 'We write unit and integration tests, verify security boundaries, and profile performance under expected loads.',
       icon: 'shield'
     },
     {
       id: 'step-5',
       number: '05',
-      title: 'Cloud Deployment',
-      description: 'We orchestrate smooth, zero-downtime deployments utilizing modern CI/CD pipelines and scalable infrastructure.',
+      title: 'Automated Deployment',
+      description: 'We configure CI/CD pipelines, containerize workloads, and orchestrate automated, zero-downtime releases.',
       icon: 'rocket'
     },
     {
       id: 'step-6',
       number: '06',
-      title: 'Scale & Maintenance',
-      description: 'Post-launch, we provide proactive monitoring, performance optimization, and continuous support as you grow.',
+      title: 'Handoff & Support',
+      description: 'We provide documented API specs, record setup walkthrough videos, and support your teams during transition.',
       icon: 'chart'
     }
   ]
