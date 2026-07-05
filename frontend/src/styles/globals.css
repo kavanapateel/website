@@ -27,7 +27,7 @@
   }
 
   @media (prefers-color-scheme: dark) {
-    :root {
+    :root:not(.light) {
       --background: #09090b; /* zinc-950 */
       --foreground: #fafafa; /* zinc-50 */
       --card: #18181b; /* zinc-900 */
@@ -42,6 +42,38 @@
       --muted: #27272a;
       --muted-foreground: #a1a1aa;
     }
+  }
+
+  :root.dark {
+    --background: #09090b;
+    --foreground: #fafafa;
+    --card: #18181b;
+    --card-foreground: #fafafa;
+    --border: #27272a;
+    
+    --primary: #3b82f6;
+    --primary-foreground: #ffffff;
+    --secondary: #8b5cf6;
+    --secondary-foreground: #ffffff;
+
+    --muted: #27272a;
+    --muted-foreground: #a1a1aa;
+  }
+
+  :root.light {
+    --background: #ffffff;
+    --foreground: #09090b;
+    --card: #ffffff;
+    --card-foreground: #09090b;
+    --border: #e4e4e7;
+    
+    --primary: #3b82f6;
+    --primary-foreground: #ffffff;
+    --secondary: #8b5cf6;
+    --secondary-foreground: #ffffff;
+
+    --muted: #f4f4f5;
+    --muted-foreground: #71717a;
   }
 
   /* CSS Reset & Setup */

@@ -1,6 +1,5 @@
 import {
   Hero,
-  TrustedCompanies,
   Services,
   About,
   WhyChooseUs,
@@ -9,14 +8,14 @@ import {
   Portfolio,
   Team,
   Testimonials,
-  Contact
+  Contact,
+  FinalCta
 } from '../components/sections';
 
 export const Home = () => {
   return (
     <>
       <Hero />
-      <TrustedCompanies />
       <Services />
       <About />
       <WhyChooseUs />
@@ -26,6 +25,7 @@ export const Home = () => {
       <Team />
       <Testimonials />
       <Contact />
+      <FinalCta />
     </>
   );
 };

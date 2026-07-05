@@ -16,7 +16,7 @@ export const Section = ({
   return (
     <section
       id={id}
-      className={clsx('py-16 md:py-24 lg:py-32', backgrounds[background], className)}
+      className={clsx('py-12 md:py-16 lg:py-20', backgrounds[background], className)}
       {...props}
     >
       {children}

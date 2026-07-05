@@ -77,12 +77,16 @@ export const Hero = () => {
               variants={itemVariants}
               className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto mb-12"
             >
-              <Button size="large" variant="primary" className="shadow-lg shadow-blue-500/25 hover:-translate-y-0.5 px-8">
-                {heroData.primaryCta.label}
-              </Button>
-              <Button size="large" variant="ghost" className="shadow-sm hover:-translate-y-0.5 border border-[var(--border)] bg-[var(--background)] px-8">
-                {heroData.secondaryCta.label}
-              </Button>
+              <a href={heroData.primaryCta.href} className="focus:outline-none w-full sm:w-auto">
+                <Button size="large" variant="primary" className="shadow-lg shadow-blue-500/25 hover:-translate-y-0.5 px-8 cursor-pointer w-full">
+                  {heroData.primaryCta.label}
+                </Button>
+              </a>
+              <a href={heroData.secondaryCta.href} className="focus:outline-none w-full sm:w-auto">
+                <Button size="large" variant="ghost" className="shadow-sm hover:-translate-y-0.5 border border-[var(--border)] bg-[var(--background)] px-8 cursor-pointer w-full">
+                  {heroData.secondaryCta.label}
+                </Button>
+              </a>
             </motion.div>
 
             {/* Trust Indicators */}
@@ -115,8 +119,8 @@ export const Hero = () => {
               <svg xmlns="http://www.w3.org/2000/svg" className="w-20 h-20 mb-6 opacity-40 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M14 10l-2 1m0 0l-2-1m2 1v2.5M20 7l-2 1m2-1l-2-1m2 1v2.5M14 4l-2-1-2 1M4 7l2-1M4 7l2 1M4 7v2.5M12 21l-2-1m2 1l2-1m-2 1v-2.5M6 18l-2-1v-2.5M18 18l2-1v-2.5" />
               </svg>
-              <p className="font-semibold tracking-widest uppercase text-sm">Architecture Graphic</p>
-              <p className="text-xs opacity-60 mt-2 max-w-[200px] text-center">Awaiting custom 3D isometric illustration of cloud architecture.</p>
+              <p className="font-semibold tracking-widest uppercase text-sm">Enterprise Infrastructure</p>
+              <p className="text-xs opacity-60 mt-2 max-w-[200px] text-center">Visualizing secure backend pipelines, API gateways, and distributed cloud databases.</p>
             </div>
             
             {/* Decorative grid pattern in placeholder */}

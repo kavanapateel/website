@@ -81,9 +81,11 @@ export const Navbar = () => {
         {/* Actions */}
         <div className="hidden md:flex items-center gap-4">
           <ThemeToggle />
-          <Button variant="primary" size="small" className="shadow-md hover:shadow-lg hover:-translate-y-0.5">
-            Get Started
-          </Button>
+          <a href="#contact" className="focus:outline-none">
+            <Button variant="primary" size="small" className="shadow-md hover:shadow-lg hover:-translate-y-0.5 cursor-pointer">
+              Get Started
+            </Button>
+          </a>
         </div>
 
         {/* Mobile Menu Toggle */}
@@ -132,9 +134,11 @@ export const Navbar = () => {
                 </a>
               ))}
               <div className="pt-4 mt-4 border-t border-[var(--border)]">
-                <Button variant="primary" size="medium" className="w-full shadow-md">
-                  Get Started
-                </Button>
+                <a href="#contact" onClick={() => setIsMobileMenuOpen(false)} className="block w-full focus:outline-none">
+                  <Button variant="primary" size="medium" className="w-full shadow-md cursor-pointer">
+                    Get Started
+                  </Button>
+                </a>
               </div>
             </div>
           </motion.div>

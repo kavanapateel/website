@@ -1,37 +1,37 @@
 export const servicesData = {
   header: {
-    badge: 'Our Expertise',
-    title: 'Transforming Ideas into Digital Reality',
-    description: 'We deliver end-to-end technology solutions designed to scale your business, optimize operations, and unlock new revenue streams.'
+    badge: 'Our Capabilities',
+    title: 'Custom Engineering Services',
+    description: 'We design, build, and optimize software systems. Our expertise spans core platform development, cloud operations, and practical artificial intelligence.'
   },
   items: [
     {
       id: 'custom-software',
-      title: 'Custom Software Development',
-      description: 'Architecting scalable, secure, and high-performance enterprise applications tailored precisely to your unique business requirements.',
+      title: 'Custom Software Engineering',
+      description: 'We design and build secure, concurrent backends, API integrations, and database schemas optimized for high throughput and reliability.',
       icon: 'code',
-      href: '/services/custom-software'
+      href: '#contact'
     },
     {
       id: 'cloud-architecture',
-      title: 'Cloud & DevOps Architecture',
-      description: 'Modernize your infrastructure with secure cloud migrations, serverless architectures, and automated CI/CD pipelines.',
+      title: 'Cloud & Infrastructure Operations',
+      description: 'We orchestrate AWS and GCP environments, implement infrastructure as code (Terraform), and containerize workloads using Docker and Kubernetes.',
       icon: 'cloud',
-      href: '/services/cloud-architecture'
+      href: '#contact'
     },
     {
       id: 'ai-integration',
-      title: 'AI & Machine Learning',
-      description: 'Unlock the power of your data with predictive analytics, natural language processing, and custom AI integrations.',
+      title: 'Practical AI & LLM Integrations',
+      description: 'We build custom inference pipelines, automate complex document processing, and integrate large language models securely into enterprise workflows.',
       icon: 'ai',
-      href: '/services/ai-integration'
+      href: '#contact'
     },
     {
       id: 'mobile-development',
-      title: 'Mobile App Development',
-      description: 'Engaging, native-feeling mobile experiences for iOS and Android built on modern cross-platform frameworks.',
+      title: 'Cross-Platform Mobile Engineering',
+      description: 'We build high-performance mobile applications for iOS and Android using React Native, focusing on offline capability and local data caching.',
       icon: 'mobile',
-      href: '/services/mobile-development'
+      href: '#contact'
     }
   ]
 };

@@ -1,18 +1,18 @@
 export const heroData = {
-  badge: 'PentaByte Labs • Technology Partner',
-  heading: 'Engineering Digital Excellence for the Modern Enterprise',
-  description: 'We partner with visionary organizations to architect scalable software, integrate artificial intelligence, and accelerate digital transformation through premium cloud and mobile solutions.',
+  badge: 'PentaByte Labs • Software & AI Engineers',
+  heading: 'We Build Scalable Software & Cloud Infrastructure',
+  description: 'A senior engineering partner for startups and enterprises. We architect high-performance backends, deploy custom AI models, and build robust web and mobile applications.',
   primaryCta: {
     label: "Let's Build Together",
-    href: '/contact'
+    href: '#contact'
   },
   secondaryCta: {
     label: 'Explore Services',
-    href: '/services'
+    href: '#services'
   },
   trustIndicators: [
-    'Enterprise-Grade Architecture',
-    'AI & Cloud Native',
-    'Agile Delivery'
+    'Senior Engineers Only',
+    'Cloud Native Architecture',
+    'Production-Grade Code'
   ]
 };

@@ -1,6 +1,7 @@
 /* Reusable Custom Utility Classes */
 
 @layer utilities {
+
   /* Glassmorphism Effect */
   .glass {
     background: rgba(255, 255, 255, 0.05);

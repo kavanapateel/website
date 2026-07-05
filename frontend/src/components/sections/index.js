@@ -1,5 +1,4 @@
 export * from './Hero';
-export * from './TrustedCompanies';
 export * from './Services';
 export * from './About';
 export * from './WhyChooseUs';
@@ -9,3 +8,4 @@ export * from './Portfolio';
 export * from './Team';
 export * from './Testimonials';
 export * from './Contact';
+export * from './FinalCta';
