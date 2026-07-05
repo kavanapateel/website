@@ -7,7 +7,6 @@ import {
   DevelopmentProcess,
   Portfolio,
   Team,
-  Testimonials,
   Contact,
   FinalCta
 } from '../components/sections';
@@ -23,7 +22,6 @@ export const Home = () => {
       <DevelopmentProcess />
       <Portfolio />
       <Team />
-      <Testimonials />
       <Contact />
       <FinalCta />
     </>

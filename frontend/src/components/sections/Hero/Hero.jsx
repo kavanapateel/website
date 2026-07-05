@@ -26,7 +26,7 @@ export const Hero = () => {
   const lastPart = hasMultipleWords ? headingWords.slice(-3).join(' ') : '';
 
   return (
-    <Section id="hero" className="relative pt-32 pb-16 md:pt-40 md:pb-24 lg:pt-48 lg:pb-32 overflow-hidden bg-[var(--background)]">
+    <Section id="hero" className="relative pt-24 pb-16 md:pt-28 md:pb-24 lg:pt-32 lg:pb-32 overflow-hidden bg-[var(--background)]">
       {/* Background Decorative Elements */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-full pointer-events-none opacity-20 dark:opacity-10 blur-3xl z-0">
         <div className="absolute top-[-10%] right-[10%] w-[500px] h-[500px] bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-50 animate-float" />

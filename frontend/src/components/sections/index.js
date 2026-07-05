@@ -6,6 +6,5 @@ export * from './Technologies';
 export * from './DevelopmentProcess';
 export * from './Portfolio';
 export * from './Team';
-export * from './Testimonials';
 export * from './Contact';
 export * from './FinalCta';
