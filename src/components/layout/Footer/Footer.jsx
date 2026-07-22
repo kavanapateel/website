@@ -10,7 +10,8 @@ export const Footer = () => {
           {/* Column 1: Company Info */}
           <div className="flex flex-col pr-0 lg:pr-8">
             <a 
-              href="/" 
+              href="#" 
+              onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
               className="inline-block text-2xl font-extrabold text-[var(--foreground)] tracking-tighter mb-4 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded-sm w-fit"
             >
               {footerData.company.logo}

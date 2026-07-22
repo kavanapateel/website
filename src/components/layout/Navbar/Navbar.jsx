@@ -54,7 +54,11 @@ export const Navbar = () => {
     >
       <Container className="flex items-center justify-between">
         {/* Brand Logo */}
-        <a href="/" className="flex-shrink-0 flex items-center gap-2 group focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--primary)] rounded-lg">
+        <a 
+          href="#" 
+          onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
+          className="flex-shrink-0 flex items-center gap-2 group focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--primary)] rounded-lg"
+        >
           <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-[var(--primary)] to-[var(--secondary)] flex items-center justify-center shadow-md group-hover:shadow-lg transition-shadow">
             <span className="text-white font-bold text-lg leading-none">
               {companyInfo.name.charAt(0)}
