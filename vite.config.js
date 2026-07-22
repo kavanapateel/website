@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: '/website/',
+  base: '/pentabytelabs/',
 })
